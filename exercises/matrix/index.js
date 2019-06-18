@@ -15,6 +15,26 @@
 //     [11, 16, 15, 6],
 //     [10,  9,  8, 7]]
 
-function matrix(n) {}
+// create an empty array of results
+// create a counter variable starting at 1
+// as long as start start col <= end column && start row <= end row
+    //loop from the start
+
+function matrix(n) {
+    let result = [];
+    for(let i = 0; i < n; i++){
+        result.push([])
+    }
+    let counter = 1;
+    let startColumn = 0;
+    let endColumn = n - 1;
+    let startRow = 0;
+    let endRow = n - 1;
+
+    while (startColumn < - endColumn && startRow <= endRow) {  // these values will change over time
+        
+    } 
+
+}
 
 module.exports = matrix;
